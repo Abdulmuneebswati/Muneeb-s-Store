@@ -1,0 +1,44 @@
+.App.dark{
+    background-color: #111;
+    color: rgb(156,156,156);
+    .table{
+        background-color: #111;
+        .tableCell{
+            color: gray;
+
+        }
+    }
+    .navbar{
+        color: #999;
+    }
+    .sidebar{
+        background-color: #111;
+        .top{
+            .logo{
+                color: #999;
+            }
+        }
+        ul{
+            li{
+                &:hover{
+                    background-color:#333;
+                }
+            .icon{
+                color: #999;
+            }
+            }
+        }
+    }
+    .datatable{
+        .dataGrid{
+            color: gray;
+            border: none;
+            .viewButton,.deleteButton,.status{
+                color: #999;
+            }
+        }
+    }
+    input{
+        background-color: transparent;
+    }
+}
